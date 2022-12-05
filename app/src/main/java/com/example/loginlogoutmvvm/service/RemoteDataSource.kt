@@ -2,9 +2,8 @@ package com.example.loginlogoutmvvm.service
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 
-class ClassRemoteDataSource {
+class RemoteDataSource {
 
     companion object {
         private const val BASE_URL = "https://apix.simplifiedcoding.in/api/"
